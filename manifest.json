@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Title Case Input",
+  "name": "Title Case Converter",
   "version": "1.0",
   "description": "Convert selected input text to Title Case",
   "icons": {
