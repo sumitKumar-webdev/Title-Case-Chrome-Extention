@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Title Case Input",
+  "version": "1.0",
+  "description": "Convert selected input text to Title Case",
+  "icons": {
+    "16": "icons/icon (3).png",
+    "48": "icons/icon (2).png",
+    "128": "icons/icon (1).png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "commands"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon (3).png",
+      "48": "icons/icon (2).png",
+      "128": "icons/icon (1).png"
+    }
+  },
+  "background": {
+    "service_worker": "index.js"
+  },
+  "commands": {
+    "convert-to-titlecase": {
+      "suggested_key": {
+        "default": "Alt + T"
+      },
+      "description": "Convert selected input text to Title Case"
+    }
+  }
+}
