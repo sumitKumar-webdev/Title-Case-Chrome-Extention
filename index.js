@@ -15,7 +15,16 @@ const convertSelection = () => {
       })
       .join(' ');
   };
+// for Context Menu
+  chrome.runtime.onInstalled.addListener(() => {
+  chrome.contextMenus.create({
+    id: "convert-to-titlecase",
+    title: "Convert to Title Case",
+    contexts: ["selection"]
+  });
+});
 
+// for short cut key
   const activeEl = document.activeElement;
 
   if (

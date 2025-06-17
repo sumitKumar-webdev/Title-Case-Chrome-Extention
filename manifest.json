@@ -9,6 +9,7 @@
     "128": "icons/icon (1).png"
   },
   "permissions": [
+    "contextMenus",
     "scripting",
     "activeTab",
     "commands"
