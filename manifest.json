@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Title Case Converter",
-  "version": "1.0",
-  "description": "Convert selected input text to Title Case",
+  "version": "1.1",
+  "description": "Convert selected input text to Any Case",
   "icons": {
     "16": "icons/icon (3).png",
     "48": "icons/icon (2).png",
@@ -31,6 +31,21 @@
         "default": "Alt + T"
       },
       "description": "Convert selected input text to Title Case"
+    },
+
+    "convert-to-uppercase": {
+      "suggested_key": {
+        "default": "Alt + U"
+      },
+      "description": "Convert selected input text to Upper Case"
+    },
+
+    "convert-to-lowercase": {
+      "suggested_key": {
+        "default": "Alt + S"
+      },
+      "description": "Convert selected input text to Lower Case"
     }
+    
   }
 }
